@@ -30,6 +30,9 @@ function App() {
     }
   };
 
+  //Data Persistency
+  
+
   return (
     <div className="App">
       <header>
@@ -41,7 +44,7 @@ function App() {
         setTodos={setTodos}
         setInputText={setInputText}
         setStatus={setStatus}
-        filteredTodos={filteredTodos}
+      
       />
       <TodoList
         setTodos={setTodos}
